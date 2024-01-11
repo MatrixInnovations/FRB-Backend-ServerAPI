@@ -4,7 +4,7 @@
   "description": "A full-stack application for image recognition using Clarifai API, built with Express.js and PostgreSQL.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node ./server.js"
   },
   "keywords": [],
   "author": "Andrew Lowery",
