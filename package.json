@@ -1,13 +1,13 @@
 {
   "name": "smart-brain-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A full-stack application for image recognition using Clarifai API, built with Express.js and PostgreSQL.",
+  "main": "script.js",
   "scripts": {
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Andrew Lowery",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
