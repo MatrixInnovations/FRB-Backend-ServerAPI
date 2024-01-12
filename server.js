@@ -15,8 +15,7 @@ const db = knex({
     host : 'oregon-postgres.render.com',
     user : 'mindgamesdb_qvf3_user',
     password : 'brdXDP9eAIVIUcmWROGuOcSv7CaDzx8w',
-    database : 'smart-brain',
-    port : '5432',
+    database : 'smart-brain'
   }
 });
 
