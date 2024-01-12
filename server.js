@@ -12,9 +12,9 @@ const image = require('./controllers/image');
 const db = knex({
   client: 'pg',
   connection: {
-    host : 'https://mindgamesbe.onrender.com',
-    user : '',
-    password : '',
+    host : 'oregon-postgres.render.com',
+    user : 'mindgamesdb_qvf3_user',
+    password : 'brdXDP9eAIVIUcmWROGuOcSv7CaDzx8w',
     database : 'smart-brain'
   }
 });
