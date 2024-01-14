@@ -15,7 +15,7 @@ const database = knex({
     host : 'oregon-postgres.render.com',
     user : 'mindgamesdb_qvf3_user',
     password : 'brdXDP9eAIVIUcmWROGuOcSv7CaDzx8w',
-    database : 'MindGamesDB'
+    database : 'mindgamesdb_qvf3'
   }
 });
 
