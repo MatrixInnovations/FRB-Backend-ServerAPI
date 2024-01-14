@@ -12,7 +12,7 @@ const image = require('./controllers/image');
 const database = knex({
   client: 'pg',
   connection: {
-    host : 'oregon-postgres.render.com',
+    host : 'dpg-cmfe53mn7f5s73c4ej70-a',
     user : 'mindgamesdb_qvf3_user',
     password : 'brdXDP9eAIVIUcmWROGuOcSv7CaDzx8w',
     database : 'mindgamesdb_qvf3'
