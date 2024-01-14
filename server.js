@@ -9,7 +9,7 @@ const signin = require('./controllers/signin');
 const profile = require('./controllers/profile');
 const image = require('./controllers/image');
 
-const db = knex({
+const database = knex({
   client: 'pg',
   connection: {
     host : 'oregon-postgres.render.com',
