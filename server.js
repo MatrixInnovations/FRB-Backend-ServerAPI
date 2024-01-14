@@ -24,13 +24,14 @@ const app = express();
 app.use(cors())
 app.use(express.json()); 
 
-app.get('/', (req, res)=> { res.send(database.users)})
-app.post('/signin', (req, res) => {signin.handleSignin(req, res, db, bcrypt)})
-app.post('/register', (req, res) => {register.handleRegister(req, res, db, bcrypt)})
-app.get('/profile/:id', (req, res) => { profile.handleProfileGet(req, res, db)})
-app.put('/image', (req, res) => { image.handleImage(req, res, db)})
-app.post('/imageurl', (req, res) => { image.handleApicall(req, res,)})
+// Welcome message for the root endpoint
+app.get('/', (req, res)=> { res.send('Welcome to the Smart Brain API')})
 
+app.post('/signin', (req, res) => {signin.handleSignin(req, res, database, bcrypt)})
+app.post('/register', (req, res) => {register.handleRegister(req, res, database, bcrypt)})
+app.get('/profile/:id', (req, res) => { profile.handleProfileGet(req, res, database)})
+app.put('/image', (req, res) => { image.handleImage(req, res, database)})
+app.post('/imageurl', (req, res) => { image.handleApicall(req, res)})
 
 app.listen(3000, ()=> {
   console.log('app is running on port 3000');
